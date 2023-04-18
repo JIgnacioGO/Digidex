@@ -1,0 +1,71 @@
+/* Fuente */
+@font-face {
+    font-family: "Pixel-Digivolve";
+    src: url("../fonts/Pixel-Digivolve.ttf");
+}
+
+
+/* Barra de Navegacion (Navbar) */
+.navbar {
+    padding: 2rem;
+    background: linear-gradient(to right, #d44894, #3822A1);
+}
+
+/* Titulo */
+.titulo {
+    background: linear-gradient(to right, #d44894, #3822A1);
+    margin-top: -5px;
+}
+
+h1.digidex-texto {
+    font-family: "Pixel-Digivolve";
+}
+
+/* Digidex */
+.tarjeta {
+    height: 400px;
+}
+
+.card-img-top {
+    max-height: 240px;
+    max-width: 240px;
+}
+
+.card-body {
+    max-height: 150px;
+}
+
+.digidex-lista {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.list-group li:hover {
+    background: linear-gradient(to right, #d44894, #3822A1);
+    color: #fefefe;
+}
+
+img.imagen-redonda {
+    border: 1rem double white;
+    border-radius: 50%;
+}
+
+.digi-info-box {
+    background: linear-gradient(to right, #d44894, #3822A1);
+
+}
+
+/* Adaptable (responsivo) */
+@media screen and (min-width: 992px) {
+
+    .elementos-navbar {
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .digidex-lista {
+        height: 200px;
+    }
+}
